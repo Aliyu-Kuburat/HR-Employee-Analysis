@@ -1,4 +1,4 @@
-# HR Employee Analysis
+# HR / Employee Analysis
 
 ## Data Exploration
 
