@@ -123,6 +123,9 @@
 
 **Job Title, Department, and Business Analysis:**
 
+![Screenshot 2024-06-10 115553](https://github.com/Aliyu-Kuburat/HR-Employee-Analysis/assets/156312358/686e06cd-b7b2-4b4a-ad3f-cf3e65e76783)
+
+
 •	Total employees over time: 1,000 (915 current, 85 exited)
 
 •	33 job titles across 7 departments and 4 business units
@@ -141,6 +144,9 @@
 •	More exits in Specialty Products and Research & Development compared to Corporate and Manufacturing
 
 **Gender and Ethnicity Analysis:**
+
+![Screenshot 2024-06-10 121205](https://github.com/Aliyu-Kuburat/HR-Employee-Analysis/assets/156312358/cd6fc10d-c0cc-4ea9-baa0-6ce38081c290)
+
 
 •	Gender distribution: 52% female, 48% male
 
@@ -171,6 +177,13 @@
 
 **Annual Salary and Bonus Analysis:**
 
+![Screenshot 2024-06-10 121205](https://github.com/Aliyu-Kuburat/HR-Employee-Analysis/assets/156312358/19fb1168-a6aa-4230-be49-1436b4b10303)
+
+
+![Screenshot 2024-06-10 121111](https://github.com/Aliyu-Kuburat/HR-Employee-Analysis/assets/156312358/160cd74f-a5e1-4926-9484-a8948725b704)
+
+
+
 •	Salary distribution: Latinos and Blacks are paid below average compared to other ethnicities
 
 •	Bonus eligibility: Only Vice Presidents, Managers, Senior Managers, Directors, and Engineering Managers are entitled to bonuses
@@ -184,6 +197,9 @@
 •	Country distribution by ethnicity: United States has Asian, Black, Caucasian, and Latino employees; Brazil has Latino employees; China has Asian employees
 
 **Hire and Exit Date Analysis:**
+
+![Screenshot 2024-06-10 121357](https://github.com/Aliyu-Kuburat/HR-Employee-Analysis/assets/156312358/54815278-93fb-45b7-a35f-a13c2b33e2a7)
+
 
 •	Continuous upward trend in hiring, with the highest count in 2021 indicating company expansion
 
