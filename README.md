@@ -32,7 +32,9 @@
 
 18)	What is the age distribution of employees?
 19)	Are there any trends in the age of employees based on job title or department?
-Annual Salary and Bonus Analysis:
+
+### Annual Salary and Bonus Analysis:
+
 20)	What is the average salary across different job titles and departments?
 21)	Are there any significant differences in salary based on gender or ethnicity?
 22)	What is the average bonus percentage given to employees?
@@ -60,18 +62,18 @@ Annual Salary and Bonus Analysis:
   
 -	I changed the last digit of the employee ID ensuring there were no more duplicates.
   
--	While cleaning, I noticed a discrepancy in the job title. I had 110 records of Sr. Manger in place of Sr. Manager so I used the Find and Replace function to replace Sr. 
-  Manger with Sr. Manager.
+-	While cleaning, I noticed a discrepancy in the job title. I had 110 records of Sr. Manger in place of Sr. Manager so I used the Find and Replace function to replace 
+        Sr. Manger with Sr. Manager.
  	
 -	I created a new column named ‘Hire Month’ which was extracted from the hire date
   
--	I created another column and named it ‘Age Group’ and this segregates the employees into age groups of Young adults, Adults, Middle-Aged Adults and Elderly. I used this 
-  formula: =IF(AND(Age>=20, Age<=30), "Young Adult", IF(AND(Age>=31, Age<=40), "Adult", IF(AND(Age>=41, Age<=50), "Middle Aged Adult", "Elderly"))).
+-	I created another column and named it ‘Age Group’ and this segregates the employees into age groups of Young adults, Adults, Middle-Aged Adults and Elderly. I used 
+        this formula: =IF(AND(Age>=20, Age<=30), "Young Adult", IF(AND(Age>=31, Age<=40), "Adult", IF(AND(Age>=41, Age<=50), "Middle Aged Adult", "Elderly"))).
  	
 -	Excel using this formula =INDEX(C2:C1001, MODE(MATCH(C2:C1001,C2:C1001,0))) to create the most frequent job title.
   
--	I added another column called ‘Duration of Employment’ which I calculated using this formula =IF(AND(Hire Date<>"", Exit Date<>""), Exit Date - Hire Date, IF(Hire Date 
-  <>"", DATE(2024,4,16)- Hire Date, ""))
+-	I added another column called ‘Duration of Employment’ which I calculated using this formula =IF(AND(Hire Date<>"", Exit Date<>""), Exit Date - Hire Date, IF(Hire 
+        Date  <>"", DATE(2024,4,16)- Hire Date, ""))
 	
 ### Data Transformation and Visualization in Power BI:
 
@@ -89,9 +91,10 @@ Annual Salary and Bonus Analysis:
 
     a.	Utilized a Clustered Bar Chart to illustrate the distribution of employees across various departments.
 
-  	b.	Highlighted the most frequent job title using a Card visual, leveraging the Top N filter functionality.
+    b.	Highlighted the most frequent job title using a Card visual, leveraging the Top N filter functionality.
 
 **5.	Key Insights Visualization:**
+   
     a.	Presented the department with the highest number of employees and the average annual salary using Card visuals for clear and concise representation.
     
     b.	Employed a Pie Chart to showcase gender distribution among employees.
@@ -132,7 +135,8 @@ Annual Salary and Bonus Analysis:
 
 •	Human Resources and Finance have the highest exit rates, while Accounting has the least exits
 
-•	Specialty Products and Corporate have the highest number of employees, surpassing the average compared to Research & Development and Manufacturing
+•	Specialty Products and Corporate have the highest number of employees, surpassing the average compared to Research & Development 
+	and Manufacturing
 
 •	More exits in Specialty Products and Research & Development compared to Corporate and Manufacturing
 
@@ -142,17 +146,20 @@ Annual Salary and Bonus Analysis:
 
 •	Ethnicity breakdown: 25% Latino, 40% Asian, 27% Caucasian, 7% Black
 
-•	Gender distribution by department: More females in Manufacturing, Specialty Products, and Research & Development; more males in Corporate
+•	Gender distribution by department: More females in Manufacturing, Specialty Products, and Research & Development; 
+	more males in Corporate
 
 •	Bonus distribution: Females received more bonuses than males, with both genders above average
 
-•	Ethnicity and bonus: Asians have above-average bonuses, Blacks have the least bonuses, some Latinos and Caucasians have above-average bonuses in IT and Engineering but below average in other departments
+•	Ethnicity and bonus: Asians have above-average bonuses, Blacks have the least bonuses, some Latinos and Caucasians have above-average bonuses in IT and Engineering 
+        but below average in other departments
 
 •	Ethnic representation: 404 Asians, 271 Caucasians, 251 Latinos, 74 Blacks
 
 •	Exits by ethnicity: More Asians, Caucasians, and Latinos left the company compared to Blacks
 
-•	Country and ethnicity: Employees from Brazil, China, and the United States. United States employees are Asian, Black, Caucasian, and Latino. Latinos are from Brazil, Asians are from China.
+•	Country and ethnicity: Employees from Brazil, China, and the United States. United States employees are Asian, Black, Caucasian, and Latino. Latinos are from 
+        Brazil, Asians are from China.
 
 **Age Distribution Analysis:**
 
@@ -188,7 +195,8 @@ Annual Salary and Bonus Analysis:
 
 •	IT and Engineering departments have the highest number of employees, with Human Resources and Finance seeing the highest exit rates.
 
-•	Gender distribution is relatively balanced, with a slight female majority, while ethnicity distribution shows a higher representation of Asians and a lower representation of Blacks.
+•	Gender distribution is relatively balanced, with a slight female majority, while ethnicity distribution shows a higher representation of Asians and a lower 
+        representation of Blacks.
 
 •	Age distribution reveals a higher number of Elderly employees, with the average age group between 44-46 years.
 
@@ -209,20 +217,19 @@ Annual Salary and Bonus Analysis:
 
 **Limitation**
 
-**Summary**
-
 While the analysis provides valuable insights into the company's workforce demographics, hiring, exits, and compensation trends, it is limited by data completeness, lack of contextual information, and a narrow scope of demographic and geographic analysis. Addressing these limitations would require more detailed and comprehensive data, including qualitative insights, to develop a fuller understanding of the factors influencing employee retention, satisfaction, and overall workforce dynamics.
 
 •	There is no information on the reasons behind employee exits, which limits understanding of turnover causes.
 
-•	While the analysis identifies countries where employees are located, it lacks detailed insights into city-level distributions or regional trends within those countries.
+•	While the analysis identifies countries where employees are located, it lacks detailed insights into city-level distributions or regional trends within those 
+        countries.
 
 •	There is no examination of how geographic location might impact salary, bonus distribution, or employee satisfaction and retention.
 
 •	The salary and bonus analysis highlights disparities but does not explore potential reasons or provide recommendations for addressing these issues.
 
-•	The analysis lists job titles and departments but does not provide detailed insights into the specific roles and responsibilities or how they might affect turnover rates, 
-  salary, and bonuses.
+•	The analysis lists job titles and departments but does not provide detailed insights into the specific roles and responsibilities or how they might affect turnover 
+        rates, salary, and bonuses.
   
 •	There is no mention of employee feedback or surveys that could provide deeper insights into the workforce's perspectives.
 
@@ -231,6 +238,7 @@ While the analysis provides valuable insights into the company's workforce demog
 •	There is no distinction between voluntary and involuntary exits, which could provide more nuanced insights into turnover trends.
 
 **NEXT STEP**
+
 **1. Investigate High Exits in Specific Departments:**
 
  - **Conduct Exit Interviews:** Talk directly to employees who are leaving to understand their reasons for departure. This can be done through surveys or one-on-one 
@@ -253,10 +261,10 @@ While the analysis provides valuable insights into the company's workforce demog
 **3. Continue Expanding Hiring with Diverse Demographics:**
 
  - **Diversity and Inclusion Initiatives:** Implement programs to attract and retain talent from diverse backgrounds. This could involve partnering with diverse 
-   professional organizations or revamping job descriptions to be more inclusive.
+     professional organizations or revamping job descriptions to be more inclusive.
    
  - **Diversity Recruiting Strategies:** Target colleges and universities with diverse student populations for recruitment efforts. Partner with organizations focused on 
-   underrepresented groups in your industry.
+     underrepresented groups in your industry.
    
  - **Track Hiring Demographics:** Monitor the demographics of new hires to ensure progress towards diversity and inclusion goals.
 
