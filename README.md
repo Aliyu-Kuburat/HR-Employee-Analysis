@@ -1,12 +1,24 @@
 # HR / Employee Analysis
 
+## Introduction:
+
+As part of our strategic initiative to enhance organizational performance and foster a data-driven decision-making culture, we have compiled a comprehensive dataset detailing various aspects of our workforce. This dataset encompasses critical information such as employee demographics, job roles, departmental assignments, compensation details, and employment timelines. By analyzing this dataset, we aim to gain valuable insights into our workforce dynamics, identify key trends, and uncover actionable opportunities to improve our human resource strategies and overall business operations.
+
+## Statement of Problem:
+
+We are engaging the expertise of a data analyst to meticulously analyze our employee dataset to extract actionable insights that can drive informed and strategic decisions within our company. The specific objectives of this analysis are as follows:
+
+Employee Lifecycle, Organisational Structure, Compensation Analysis, Geographical Distribution.
+
+You can provide strategic recommendations on diversity initiatives, compensation strategies, employee retention programs, and regional staffing plans using these insights.
+
 ## Data Exploration
 
 ### EmployeeID Analysis:
 
 1)	How many employees do we currently have in our database?
 2)	Can we identify any patterns or trends in employee IDs?
-3)	Are there any duplicate or missing IDs that need to be addressed?
+3)	Are there any duplicate or missing IDs that must be addressed?
 4)	How many employees have the same name?
 5)	Can we identify any naming conventions or patterns?
 
